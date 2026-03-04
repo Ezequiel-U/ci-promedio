@@ -9,7 +9,7 @@ from promedio import promedio
 
 # Caso correcto
 def test_promedio_correcto():
-    assert promedio([10, 20, 30]) == 20
+    assert promedio([10, 20, 30]) == 50
 
 # Caso límite
 def test_promedio_un_elemento():
